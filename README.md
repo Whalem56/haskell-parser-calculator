@@ -8,7 +8,7 @@ Written in Haskell for my Theory of Programming Languages class.
 ### Usage
 Compile: `ghc hw3-problems.hs`  
 
-Run: `hw3-problems.exe`
+Run: `hw3-problems.exe`  
 
 
 #### Parser Grammar
@@ -17,7 +17,7 @@ Assume bExpr stands for "boolean expression" and that aExpr stands for "arithmet
 - int   := [``-``], digit, {digit}
 - bool  := ``true`` | ``false``
 - bExpr := bool | aExpr ``==`` aExpr | aExpr ``<`` aExpr | aExpr ``>`` aExpr
-- aExpr := int | ``(``aExpr``)`` | aExpr ``+`` aExpr | ``if`` bExpr ``then`` aExpr ``else`` aExpr
+- aExpr := int | ``(``aExpr``)`` | aExpr ``+`` aExpr | ``if`` bExpr ``then`` aExpr ``else`` aExpr  
 
 
 
