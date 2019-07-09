@@ -12,6 +12,9 @@ Run: `hw3-problems.exe`
 
 ##### Parser Grammar
 Assume bExpr stands for "boolean expression" and that aExpr stands for "arithmetic expression", then the following grammar holds:
+- digit := ``0`` | ``1`` | ``2`` | ``3`` | ``4`` | ``5`` | ``6`` | ``7`` | ``8`` | ``9``
+- int   := [``-``], digit, {digit}
+- bool  := ``true`` | ``false``
 - bExpr := bool | aExpr ``==`` aExpr | aExpr ``<`` aExpr | aExpr ``>`` aExpr
 - aExpr := int | ``-`` aExpr | aExpr ``+`` aExpr | ``if`` bExpr ``then`` aExpr ``else`` aExpr
 
