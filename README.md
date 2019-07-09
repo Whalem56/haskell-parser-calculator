@@ -16,7 +16,7 @@ Assume bExpr stands for "boolean expression" and that aExpr stands for "arithmet
 - int   := [``-``], digit, {digit}
 - bool  := ``true`` | ``false``
 - bExpr := bool | aExpr ``==`` aExpr | aExpr ``<`` aExpr | aExpr ``>`` aExpr
-- aExpr := int | ``-`` aExpr | aExpr ``+`` aExpr | ``if`` bExpr ``then`` aExpr ``else`` aExpr
+- aExpr := int | ``(``aExpr``)`` | aExpr ``+`` aExpr | ``if`` bExpr ``then`` aExpr ``else`` aExpr
 
 
 ##### Operations
