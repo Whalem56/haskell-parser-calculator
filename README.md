@@ -27,5 +27,5 @@ Assume bExpr stands for "boolean expression" and that aExpr stands for "arithmet
 
 
 ##### Example input and output
-- 80 + (-5 * 4)                 // 48  
-- if 1 == 1 then 0 else -1      // 0
+- 80 + (-5 * 4)  ----------------> 48  
+- if 1 == 1 then 0 else -1  -----> 0
