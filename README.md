@@ -12,12 +12,12 @@ Run: `hw3-problems.exe`
 
 ##### Operations
 - ``-``aExpr
-- aExpr + aExpr (Addition)
-- aExpr * aExpr (Multiplication)
-- aExpr == aExpr (Equality)
-- aExpr > aExpr (Inequality)
-- aExpr < aExpr (Inequality)
-- If bExpr then aExpr else aExpr
+- aExpr ``+`` aExpr (Addition)
+- aExpr ``*`` aExpr (Multiplication)
+- aExpr ``==`` aExpr (Equality)
+- aExpr ``>`` aExpr (Inequality)
+- aExpr ``<`` aExpr (Inequality)
+- ``If`` bExpr ``then`` aExpr ``else`` aExpr
 
 ##### Note
 - Overall expression must return a number
